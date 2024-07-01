@@ -1,0 +1,95 @@
+div.dt-container div.dt-layout-cell .dt-paging {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 5px 0;
+}
+
+div.dt-container .dt-paging .dt-paging-button:hover {
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 1.5em;
+    padding: .5em 1em;
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    color: inherit !important;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background: #3639AE;
+}
+
+div.dt-container .dt-paging .dt-paging-button.current,
+ div.dt-container:hover .dt-paging:hover .dt-paging-button:hover {
+    border: 1px solid transparent !important;
+    background-color: #3639AE !important;
+    color: white !important;
+} 
+
+table.dataTable thead .sorting_asc table.dataTable thead .sorting_desc {
+    background-color: rgba(237, 143, 229, 0.248) !important;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    margin-left: 0.5em;
+    border: 1px solid #ccc;
+    height: 40px;
+    padding: 10px 15px;
+    max-width: 150px;
+}
+
+div.dt-container .dt-search input {
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: transparent;
+    color: inherit;
+    margin-left: 0.5rem;
+    width: 7rem;
+}
+
+.dataTables_wrapper .dataTables_filter {
+    float: right;
+    text-align: right;
+}
+
+div.dt-container .dt-input {
+    margin: 0.5rem;
+}
+
+.dt-paging {
+    font-size: 14px;
+}
+
+div.dt-container select.dt-input {
+    padding: 0.5rem !important;
+}
+
+#table .line-below-h1 {
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+div.dt-container div.dt-layout-row {
+    height: 70%;
+}
+
+#CountryStatsDataTable tbody tr:nth-child(odd) {
+    background-color: #F8F9FE;
+    border-top: 1px solid #ddd;
+}
+
+#CountryStatsDataTable tbody tr:nth-child(even) {
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+}
+
+#CountryStatsDataTable tbody tr:nth-child(odd):hover,
+#CountryStatsDataTable tbody tr:nth-child(even):hover {
+    background-color: #E1E1F3;
+
+}
+td.dt-type-numeric.sorting_1, tr td.sorting_1{
+    background: rgba(54, 57, 174, 0.1) !important;
+}

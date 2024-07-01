@@ -1,0 +1,16 @@
+.scrollBar {
+  scrollbar-gutter: stable both-edges;
+}
+.scrollBar::-webkit-scrollbar {
+  width: 3px;
+}
+
+.scrollBar::-webkit-scrollbar-track {
+  opacity: 0;
+}
+
+.scrollBar::-webkit-scrollbar-thumb {
+  height: 633px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 5px;
+}

@@ -1,0 +1,33 @@
+#map-container svg {
+  margin: 0 auto;
+}
+.map-container {
+  position: relative;
+}
+
+.hovered-country {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  background: white;
+  border: 1px solid black;
+}
+#map > figure.worldmap__figure-container > svg > g {
+  height: 450px;
+  width: 100%;
+}
+#map-conteiner #figure.worldmap__figure-container > svg > g {
+  transform: translate(100, 0) scale(0.5) translate(0, 240);
+}
+
+.worldmap__figure-container {
+  padding: 20px;
+  height: 100%;
+}
+.worldmap__figure-caption {
+  border-bottom: solid 1px;
+  letter-spacing: 3px;
+  font-size: 15px;
+  text-align: center;
+}
